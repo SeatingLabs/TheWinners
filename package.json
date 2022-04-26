@@ -1,0 +1,16 @@
+{
+  "name": "thewinners",
+  "version": "1.0.0",
+  "description": "Simple script to get some winners out of a data source. ",
+  "main": "App.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/App.ts"
+  },
+  "author": "f0xb17",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "ts-node": "^10.7.0",
+    "tslib": "^2.4.0"
+  }
+}
