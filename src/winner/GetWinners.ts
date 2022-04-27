@@ -30,12 +30,11 @@ export class GetTheWinners {
         let winners: string[] = [];
         for (let x = 0; x < runtime; x++) {
             let random = Math.floor(Math.random() * this._participants.length);
-            for (let y = 0; y < winners.length; y++) {
-                if(this._participants[random] === winners[y]) {
-                    x--;
-                }
+            if (winners.includes(this._participants[random])) {
+                x--;
+            } else {
+                winners.push(this._participants[random])
             }
-            winners[x] = this._participants[random];
         }
         return winners;
     }
