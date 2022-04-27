@@ -6,7 +6,8 @@ read.readDataSource()
 
 //console.log(read.getParticipants())
 
-
-
 const winner = new GetTheWinners(read.getParticipants());
 
+winner.getParticipants();
+
+console.log(winner.getWinners(3));

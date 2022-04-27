@@ -6,8 +6,7 @@ export class ReadDataFromFile {
     private _participants: string[] = [];
 
     /**
-     * Constructor for the class ReadDataFromFile. Take one argument which
-     * represents the file path.
+     * Constructor for the class ReadDataFromFile. Take one argument which represents the file path.
      * @param{string} filePath path to data source.
      */
     public constructor(filePath: string) {
@@ -30,7 +29,7 @@ export class ReadDataFromFile {
     }
 
     /**
-     * Read the date source from the file path to the array of participants.
+     * Read the date source from the file path to the array of participants. 
      * If something went wrong an error will be thrown.
      */
     public readDataSource(): void {
